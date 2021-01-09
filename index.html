@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppPrihodRashod</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container"> 
+        <section id="info">
+            <div id="dostupan-budzet">
+                <p id="info-text">Dostupan budzet u januaru 2021</p>
+                <p id="info-budzet">0,00 </p>
+            </div>
+            <div id="info-prihod">
+                <p id="income">Prihod</p>
+                <p id="cifra">0,00</p>
+
+            </div>
+            <div id="info-rashod">
+                <p id="income2">Rashod</p>
+
+                
+                <div id="procenat" class="procenat">
+                    <p id="proc"></p>
+                </div>
+                <p id="cifra2">0,00</p>
+            </div>
+
+
+        </section>
+        <section id="input-section">
+            <select id="select">
+                <option value=""></option>
+                <option value="prihod">prihod</option>
+                <option value="rashod">rashod</option>
+            </select>
+            <input type="text" placeholder="Opis" id="opis">
+            <input type="number" placeholder="Iznos" id="iznos">
+            <button id="submit">Submit</button>
+        </section>
+        <section id="prikaz">
+            <div id="prikaz-prihodi">
+                <p>PRIHODI</p>
+            </div>
+            <div id="prikaz-rashodi">
+                <p>RASHODI</p>
+                
+            </div>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

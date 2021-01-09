@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+#info{
+    background-color: rgb(130, 189, 130);
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+#dostupan-budzet{
+
+    width: 50%;
+    height: 100px;
+    margin-left: 25%;
+    padding-top: 20px;
+}
+#info-text{
+    color: rgb(8, 70, 16);
+    text-align: center;
+    font-size: 40px;
+
+}
+#info-budzet{
+    color: rgb(8, 70, 16);
+    text-align: center;
+    font-size: 40px;
+}
+#info-prihod{
+    background-color: rgb(180, 124, 133);
+    width: 25%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#info-rashod{
+    background-color: rgb(150, 131, 185);
+    width: 25%;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+#income, #income2{
+    color: rgb(226, 208, 211);
+    float: left;
+    padding-top: 15px;
+}
+#cifra, #cifra2 {
+    color: rgb(226, 208, 211);
+    float: right;
+    padding-top: 15px;
+}
+.procenat{
+    /*display: none;*/
+    background-color: rgb(193, 186, 207);
+    float: right;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 5px 0 5px;
+}
+#input-section{
+    width: 90%;
+    height: 75px;
+    background-color: gray;
+    margin: 1px 0 0 5%;
+    border-radius: 5px;
+    text-align: center;
+}
+#select, #opis, #iznos, #submit{
+    margin: 27.5px 0 0 0;
+    border-radius: 5px;
+    height: 20px;
+}
+#prikaz{
+    width: 90%;
+    height: 300px;
+    margin: 1px 0 0 5%;
+    border-radius: 5px;
+    text-align: center;
+}
+#prikaz-prihodi{
+    width: 50%;
+    min-height: 100px;
+    background-color: rgb(180, 124, 133);
+    float: left;
+}
+#prikaz-rashodi{
+    width: 50%;
+    min-height: 100px;
+    background-color: rgb(150, 131, 185);
+    float: left;
+}
+.prihod-prikaz{
+    width: 100%;
+    height: 30px;
+}
+.prihod-prikaz:hover .obrisiPrih {
+
+    display: block;
+
+}
+
+.rashod-prikaz{
+    width: 100%;
+    height: 30px;
+}
+.rashod-prikaz:hover .obrisi {
+
+        display: block;
+    
+}
+.prikaz-opis {
+    float: left;
+    margin: 5px 0 0 10px;
+}
+.prikaz-iznos{
+    float: right;
+    margin: 5px 10px 0 0;
+}
+.obrisi{
+    float: right;
+    margin: 5px 10px 0 0;
+    display: none;
+}
+.obrisiPrih{
+    float: right;
+    margin: 5px 10px 0 0;
+    display: none;
+}
